@@ -1,0 +1,19 @@
+
+say "Welcome to RaptorScript!"
+
+set name = "Peoplerep"
+greet(name)
+
+func greet(person) {
+    say "Hello, " + person + "!"
+}
+
+repeat 3 {
+    say "Roarrr!"
+}
+
+if name == "Peoplerep" {
+    say "You are the commander."
+} else {
+    say "You are a guest."
+}
